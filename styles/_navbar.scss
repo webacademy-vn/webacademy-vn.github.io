@@ -1,0 +1,48 @@
+.navbar {
+  display: flex !important;
+  &.show {
+    height: 100%;
+    background: $primary !important;
+    * {
+      color: white !important;
+    }
+    .collapse {
+      text-align: center;
+      display: block;
+      font-size: 40px;
+    }
+    .btn {
+      margin: 0 auto;
+    }
+    .tel {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .navbar-brand {
+    color: white;
+    line-height: 70px;
+  }
+  @include media-breakpoint-up(lg) {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='#{blue}' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+
+  &.scrolled {
+    background-color: #fff;
+    transition: background-color 200ms linear;
+    .nav-link,
+    .navbar-brand {
+      color: black;
+    }
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 20px 40px 0px;
+  }
+
+  .nav-link {
+    color: white;
+  }
+}

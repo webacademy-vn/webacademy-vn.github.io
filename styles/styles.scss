@@ -1,0 +1,17 @@
+@import 'variables';
+@import 'bootstrap-custom.scss';
+@import 'buttons';
+@import 'backgrounds';
+@import 'navbar';
+@import 'banner';
+
+// pages
+@import 'pages/landing';
+
+html, body {
+    height: 100%;
+    font-size: 20px;
+}
+
+
+

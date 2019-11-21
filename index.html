@@ -1,1 +1,241 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"
+        content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet"
+        href="styles/styles.css">
+
+    <style>
+        .landing-cols i {
+            font-size: 25px;
+        }
+
+        footer {
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="landing-wrap">
+
+        <nav class="navbar fixed-top navbar-expand-lg" id="collapsibleNavId">
+            <a class="navbar-brand pt-0 mr-5"
+                href="/">webAcademy</a>
+            <!-- <button class="navbar-toggler d-lg-none"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapsibleNavId"
+                aria-controls="collapsibleNavId"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+                            <a href="tests.html" class="d-lg-none btn btn-primary my-2 my-lg-0 bg-primary">записатись</a>
+
+            <div class="collapse navbar-collapse"
+                >
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link"
+                            href="#courses">курси <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#about-us">про нас</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"
+                            href="#contacts">контакти</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <a class="nav-link pl-0 tel"
+                        href="tel:0678745231">067 874 52 31</a>
+                    <a href="tests.html" class="btn btn-primary my-2 my-lg-0 bg-primary">записатись</a>
+                </form>
+            </div>
+        </nav>
+
+        <div class="banner-image">
+            <div class="banner-text">
+                <h1>Безкоштовні курси по програмуванню</h1>
+                <a href="#about-us"
+                    class="btn btn-outline-success">детальніше</a>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row landing-cols">
+                <div class="col-md d-flex landing-col">
+                    <i class="fas fa-users text-success"></i>
+                    <div class="landing-col-body">
+                        <h6 class="landing-col-title text-success">Навчайся практикуючи</h6>
+                        <p class="landing-col-description">
+                            Наші тренери це практики які добились значних результатів у своїй сфері.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md d-flex landing-col">
+                    <i class="fas fa-handshake text-success"></i>
+                    <div class="landing-col-body">
+                        <h6 class="landing-col-title text-success">Оплата лише після працевлаштування</h6>
+                        <p class="landing-col-description">
+                            Ми пропонуємо безкоштовне навчання з оплатою лише у випадку працевлаштування програмістом в сфері IT.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md d-flex landing-col">
+                    <i class="fas fa-briefcase text-success"></i>
+                    <div class="landing-col-body">
+                        <h6 class="landing-col-title text-success">Допомога з пошуком роботи</h6>
+                        <p class="landing-col-description">
+                            Ми допомагаємо у працевлаштуванні усім студентам. Оскільки це наша спільна мета і лише в даному випадку буде здійснюватись оплата за навчання.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0 bg-light" id="courses">
+            <div class="container section courses">
+                <h5 class="text-success title">Курси</h5>
+                <div class="row">
+                    <div class="col-md d-flex">
+                        <div class="bg-primary tile">
+                            <div class="text">FE</div>
+                        </div>
+                        <div>
+                            <h6>Frontend</h6>
+                            <p class="landing-col-description">
+                                На даний момент у нас єдиний курс Frontend (HTML, CSS, JavaScript). 
+                                <br>Ми вивчаємо такі популярні технології як адаптивний дизайн з Bootstrap, препроцесор CSS - SASS, Angular останньої версії, Angular Material, NGRX, GIT, TypeScript, OOP.
+                                <br>Та робимо тестовий проект для того щоб ти міг використати його у своєму портфоліо при влаштуванні на роботу.
+                            </p>
+                            <p>
+                                Курс стартує <b>з 2-го грудня по червень</b>.
+                                Поспішайте <a href="tests.html" ><b>записатись</b></a> для того щоб встигнути увійти в поточну групу.
+                            </p>
+                            
+                            Графік занять:
+                            <br><b>Пн.</b> 17.00 - 19.00 (безпосередня зустріч <a href="https://maps.app.goo.gl/6k89cvYh1K6CSiDV6"
+                                target="_blank"
+                                rel="noopener noreferrer">тут</a>)
+                            <br><b>Ср.</b> 17.00 - 19.00 (зустріч онлайн у Skype. Потрібно у Скайп добавити користувача snagorn та о 17.00 написати
+                            слово "Привіт")
+                            <br>
+                            <br>
+                            <a href="tests.html"
+                                class="btn btn-primary my-2 my-lg-0 bg-primary">записатись</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            .section {
+                padding-top: 40px;
+                padding-bottom: 80px;
+            }
+
+            .title {
+                margin-bottom: 30px;
+            }
+
+            .tile {
+                min-width: 180px;
+                height: 180px;
+                color: white;
+                font-size: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 30px;
+            }
+        </style>
+
+
+        <div class="container section about-us" id="about-us">
+            <h5 class="text-success title">Про нас</h5>
+            <div class="row">
+                <div class="col">
+                    <p class="description">
+                        Наші заняття відбуваються за наступною <a href="https://maps.app.goo.gl/6k89cvYh1K6CSiDV6" target="_blank" rel="noopener noreferrer">адресою</a>. 
+                        <br>З собою потрібно мати ноутбук та 50грн. для оплати коворкінгу де проходять заняття. 
+                        <br>При безпосередній зустрічу (щопонеділка) за заняття оплачується орієнтовно 50 грн. за оренду коворкінгу в залежності від кількості учасників.
+                        <br>Будемо зустрічатись 2 рази на тиждень: 1-й раз - бузпосередня зустріч, 2-й раз - зустріч онлайн.
+                        <br>
+                        <br><a href="https://drive.google.com/open?id=1o4uQkLf_AeRrFW2iemA94qfN0UGBqqjO" target="_blank" rel="noopener noreferrer">Ось договір</a> для того щоб ти з ним ознайомився, який потрібно буде підписати взявши з собою паспорт та
+                        ідентифікаційний код.
+                        
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid p-0 bg-light" id="contacts">
+        <div class="container section contacts">
+            <h5 class="text-success title">Контакти</h5>
+            <div class="row">
+                <div class="col-md">
+                    <p class="description">
+                        <p>Ми знаходимось за адресою:</p>
+                        <p></p>м.Вінниця, вулиця Пирогова, буд. 112а, коворкінг-центр "Cabinet"</p>
+                        тел.: <a href="tel:0678745231">067 874 52 31</a>
+                        <br>емейл: <a href="mailto:serjvnet@gmail.com">serjvnet@gmail.com</a>
+                        <br>Skype: snagorn
+                    </p>
+                </div>
+                <div class="col-md"></div>
+            </div>
+        </div>
+        </div>
+
+        <footer class="bg-dark p-4 d-flex align-items-center justify-content-center">
+            <p class="text-white">Copiright 2019</p>
+        </footer>
+
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+                var $nav = $(".navbar");
+                $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+        $(function () {
+                var h1Height = $('h1').height(); // get height of h1 tag
+                $('a[href^="#"]').click(function (e) {
+                    e.preventDefault();
+                    var target = $(this.hash);
+                    $('html, body').animate({
+                        scrollTop: target.offset().top - h1Height // scroll to h3 minus height of h1
+                    }, 1000);
+                    return false;
+                });
+            });
+    </script>
+</body>
+</body>
+
+</html>
