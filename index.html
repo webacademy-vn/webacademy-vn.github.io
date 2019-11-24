@@ -124,7 +124,7 @@
                                 <br>Та робимо тестовий проект для того щоб ти міг використати його у своєму портфоліо при влаштуванні на роботу.
                             </p>
                             <p>
-                                Курс стартує <b>з 2-го грудня по червень</b>.
+                                Курс стартує <b>з 2-го грудня</b> та триває 6 місяців.
                                 Поспішайте <a href="tests.html" ><b>записатись</b></a> для того щоб встигнути увійти в поточну групу.
                             </p>
                             
@@ -173,13 +173,10 @@
                 <div class="col">
                     <p class="description">
                         Наші заняття відбуваються за наступною <a href="https://maps.app.goo.gl/6k89cvYh1K6CSiDV6" target="_blank" rel="noopener noreferrer">адресою</a>. 
-                        <br>З собою потрібно мати ноутбук та 50грн. для оплати коворкінгу де проходять заняття. 
-                        <br>При безпосередній зустрічу (щопонеділка) за заняття оплачується орієнтовно 50 грн. за оренду коворкінгу в залежності від кількості учасників.
+                        <br>З собою потрібно мати ноутбук. 
                         <br>Будемо зустрічатись 2 рази на тиждень: 1-й раз - бузпосередня зустріч, 2-й раз - зустріч онлайн.
                         <br>
-                        <br><a href="https://drive.google.com/open?id=1o4uQkLf_AeRrFW2iemA94qfN0UGBqqjO" target="_blank" rel="noopener noreferrer">Ось договір</a> для того щоб ти з ним ознайомився, який потрібно буде підписати взявши з собою паспорт та
-                        ідентифікаційний код.
-                        
+                        <br><a href="https://drive.google.com/open?id=1o4uQkLf_AeRrFW2iemA94qfN0UGBqqjO" target="_blank" rel="noopener noreferrer">Ось договір</a> для того щоб ти з ним ознайомився, який потрібно буде підписати.
                     </p>
                 </div>
             </div>
@@ -195,8 +192,8 @@
                         <p></p>м.Вінниця, вулиця Пирогова, буд. 112а, коворкінг-центр "Cabinet"</p>
                         тел.: <a href="tel:0678745231">067 874 52 31</a>
                         <br>емейл: 
-                        <a href="mailto:serjvnet@gmail.com">serjvnet@gmail.com</a>
-                        <br>Skype: snagorn
+                        <a href="mailto:serjvnet@gmail.com?subject=webAcademy">serjvnet@gmail.com</a>
+                        <br>Skype: <a href="skype:snagorn">snagorn</a> 
                     </p>
                 </div>
                 <div class="col-md"></div>
@@ -227,7 +224,11 @@
             });
         });
         $(function () {
-                var h1Height = $('h1').height(); // get height of h1 tag
+                var h1Height = $('h1').height() - 20; // get height of h1 tag
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 0);
+                
                 $('a[href^="#"]').click(function (e) {
                     e.preventDefault();
                     var target = $(this.hash);
